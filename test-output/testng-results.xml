@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-03T20:48:58 WIB" name="Default suite" finished-at="2022-02-03T20:49:33 WIB" duration-ms="35291">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.axiata.automationtest.RunTest@77847718]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-03T20:48:58 WIB" name="Default test" finished-at="2022-02-03T20:49:33 WIB" duration-ms="35291">
+      <class name="com.axiata.automationtest.RunTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.axiata.automationtest.RunTest@77847718]" started-at="2022-02-03T20:48:58 WIB" name="setUpClass" finished-at="2022-02-03T20:48:58 WIB" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48c76607]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.axiata.automationtest.RunTest@77847718]" started-at="2022-02-03T20:48:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-03T20:49:33 WIB" duration-ms="34639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Gist Activity Automation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gist]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.axiata.automationtest.RunTest@77847718]" started-at="2022-02-03T20:49:33 WIB" name="tearDownClass" finished-at="2022-02-03T20:49:33 WIB" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.axiata.automationtest.RunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
